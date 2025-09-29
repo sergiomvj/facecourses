@@ -1,0 +1,5 @@
+{
+  "name": "FaceCourses: Gerador de Cursos com IA",
+  "description": "Uma aplicação web para criar estruturas de cursos de forma intuitiva com a ajuda da IA. Defina o tema, público e formato, e a IA sugere templates e conteúdos para acelerar o processo de criação.",
+  "requestFramePermissions": []
+}
