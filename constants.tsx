@@ -1,4 +1,3 @@
-
 import type { ReactNode } from 'react';
 import { Audience, CourseFormat, LessonType } from './types';
 import { IconBook, IconFilm, IconGraphic, IconHeadphones, IconPlus, IconSparkles, IconTrash, IconPencil, IconChevronDown, IconChevronUp, IconCheckCircle } from './components/Icons';
@@ -15,6 +14,12 @@ export const FORMAT_OPTIONS: { value: CourseFormat; label: string }[] = [
   { value: 'texto', label: 'Texto' },
   { value: 'animacao', label: 'Animação' },
   { value: 'misto', label: 'Misto' },
+];
+
+export const LANGUAGE_OPTIONS: { value: string; label: string }[] = [
+    { value: 'pt-BR', label: 'Português (Brasil)' },
+    { value: 'en-US', label: 'Inglês (EUA)' },
+    { value: 'es-ES', label: 'Espanhol (Espanha)' },
 ];
 
 export const LESSON_TYPE_OPTIONS: { value: LessonType; label: string; icon: ReactNode }[] = [
